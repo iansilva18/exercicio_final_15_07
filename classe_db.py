@@ -1,5 +1,3 @@
-from typing_extensions import Self
-from xmlrpc.client import _HostType
 import mysql.connector
 from classe_estoque import db_estoque
 from classe_produto import Produto
