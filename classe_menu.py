@@ -14,8 +14,6 @@ class Menu():
                            '2 - Listar Fabricante\n'
                            '3 - Cadastrar Produto\n'
                            '4 - Listar Produto\n'
-                           '5 - Alterar Fabricante\n'
-                           '6 - Alterar Prod.:\n'
                            '7 - Comprar:\n'
                            '8 - Vender\n'
                            '9 - Excluir Fabricante\n'
@@ -30,10 +28,6 @@ class Menu():
             elif entrada == '3':
                 estoque.salvar_produtos()
             elif entrada == '4':
-                estoque.listar_produtos()
-            elif entrada == '5':
-                estoque.alterar_fabricantes()
-            elif entrada == '6':
                 estoque.alterar_produtos()
             elif entrada == '7':
                 compra.comprar()
